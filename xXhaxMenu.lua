@@ -24,7 +24,7 @@ Menu.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Menu.BackgroundTransparency = 0.500
 Menu.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Menu.BorderSizePixel = 0
-Menu.Position = UDim2.new(0.5, 0, 0.5, 0)
+Menu.Position = UDim2.new(0.350, 0, 0.350, 0)
 Menu.Size = UDim2.new(0, 650, 0, 350)
 
 UICorner.CornerRadius = UDim.new(0, 10)
