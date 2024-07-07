@@ -22,6 +22,10 @@ MainSection:NewSlider("Jump Height", "Change Player Jump Height", 1000, 0, funct
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = ws
 end)
 
+MainSection:NewSlider("Health", "Change Player Health", 100, 0, function(ws)
+    game.Players.LocalPlayer.Character.Humanoid.Health = ws
+end)
+
 local Dex = Window:NewTab("Dark DeX")
 local DexSection = Dex:NewSection("Dark DeX")
 
